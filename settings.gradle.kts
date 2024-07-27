@@ -1,6 +1,5 @@
 rootProject.name = "otusJava"
 include("hw01-gradle")
-include("hw02-collections")
 project(":hw01-gradle").name = "gradleJar"
 
 pluginManagement {
@@ -24,3 +23,4 @@ pluginManagement {
         id("com.diffplug.spotless") version spotless
     }
 }
+include("hw03-testframework")
